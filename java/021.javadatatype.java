@@ -2,15 +2,11 @@
 class Solution{
     public static void main(String []argh)
     {
-
-
-
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
 
         for(int i=0;i<t;i++)
         {
-
             try
             {
                 long x=sc.nextLong();
@@ -31,19 +27,14 @@ if(x>=-9223372036854775808L && x<=9223372036854775807L)System.out.println("* lon
     }
 }
 //or 
-
 class Solution{
     public static void main(String []argh)
     {
-
-
-
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
 
         for(int i=0;i<t;i++)
         {
-
             try
             {
                 long x=sc.nextLong();
@@ -53,7 +44,6 @@ class Solution{
          if(x>=Short.MIN_VALUE && x<=Short.MAX_VALUE)System.out.println("* short");
 if(x>=Integer.MIN_VALUE && x<=Integer.MAX_VALUE)System.out.println("* int");
 if(x>=Long.MIN_VALUE && x<=Long.MAX_VALUE)System.out.println("* long");
-                
             }
             catch(Exception e)
             {
