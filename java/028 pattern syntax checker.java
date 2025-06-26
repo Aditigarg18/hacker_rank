@@ -9,10 +9,10 @@ public class Solution
           	//Write your code
             try{
                 Pattern p=Pattern.compile(pattern);
-                System.out.print("Valid");  
+                System.out.println("Valid");  
             }
             catch( Exception e){
-                System.out.print("Invalid");
+                System.out.println("Invalid");
             }
             testCases--;
 		}
